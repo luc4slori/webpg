@@ -1,0 +1,175 @@
+/*
+.icono{display:inline-block;background-image:url('/export/sites/bigbang/arte/sprite.svg');font-size:11px;text-align:center}
+
+.icono.ic_tw.gr{width: 20px;height: 20px;background-position:-9px -90px}
+.icono.ic_mail.gr{width: 20px;height: 20px;background-position:-9px -116px}
+*/
+.ics{width:36px;height:36px;display:inline-block;background-image:url('../font/material-design-icons/ic.svg');font-size:11px;text-align:center}
+.ics.ic_shr{background-position:0 0}
+.ics.ic_shr.gr{background-position:-36px 0}
+.ics.ic_fb{background-position:-72px 0}
+.ics.ic_gp{background-position:-108px 0}
+.ics.ic_tw{background-position:-144px 0}
+.ics.ic_print{background-position:-180px 0}
+.ics.ic_cmmnt{background-position:-216px 0}
+.ics.ic_house{background-position:-107px -400px;height: 27px;width: 27px;}
+.ics.ic_house:hover{background-position:-136px -400px;height: 27px;width: 27px;}
+
+/*
+.ics.ic_youtb {background-image:url('/export/sites/bigbang/arte/sprite.svg');background-position:-45px -85px}
+.ics.ic_youtb.bl {background-image:url('/export/sites/bigbang/arte/sprite.svg');background-position:-117px -85px}
+.ics.ic_youtb:hover{background-image:url('/export/sites/bigbang/arte/sprite.svg');background-position:-81px -85px}
+*/
+
+.ics.ic_chart{background-position:0 -36px}
+.ics.ic_close{background-position:-36px -36px}
+.ics.ic_fb.al{background-position:-72px -36px}
+.ics.ic_gp.al{background-position:-108px -36px}
+.ics.ic_tw.al{background-position:-144px -36px}
+.ics.ic_mail{background-position:-180px -36px}
+.ics.ic_dislike{background-position:-216px -36px}
+span:hover .ics.ic_dislike{background-position:-216px -326px}
+
+.ics.ic_write{background-position:0 -72px}
+.ics.ic_pencil{background-position:-36px -72px}
+.ics.ic_fb.bl{background-position:-72px -72px}
+.ics.ic_gp.bl{background-position:-108px -72px}
+.ics.ic_tw.bl{background-position:-144px -72px}
+.ics.ic_mail.bl{background-position:-180px -72px}
+.ics.ic_like{background-position:-216px -72px}
+span:hover .ics.ic_like{background-position:-180px -326px}
+
+.ics.ic_bb, .ics.ic_bb.bl{background-position:0 -108px}
+.ics.ic_bb.wh{background-position:-36px -108px}
+.ics.ic_bb.gr{background-position:-72px -108px}
+.ics.ic_bb.gy{background-position:-108px -108px}
+.ics.ic_info{background-position:-144px -108px}
+.ics.ic_link{background-position:-180px -108px}
+.ics.ic_search, .ics.ic_search.gr{background-position:-216px -108px}
+
+.ics.ic_nublado_parcial{background-position:0 -144px}
+.ics.ic_despejado{background-position:-36px -144px}
+.ics.ic_lluvia{background-position:-72px -144px}
+.ics.ic_tormenta{background-position:-108px -144px}
+.ics.ic_up{background-position:-144px -162px;height:18px;}
+.ics.ic_down{background-position:-144px -144px;height:18px;}
+.ics.ic_more{background-position:-180px -144px}
+.ics.ic_search.bl{background-position:-216px -144px}
+.ics.ic_search.bl:hover{background-position:-216px -108px}
+
+.ics.ic_env, .ics.ic_env.gr{background-position:0 -180px}
+.ics.ic_env.bl{background-position:-36px -180px}
+.ics.ic_bb_ok{background-position:-72px -180px;width:43px}
+.ics.ic_bb_write{background-position:-117px -180px;width:40px}
+.ics.ic_user{background-position:-159px -180px;width:46px;height:46px}
+.ics.ic_user.al{background-position:-205px -180px;width:46px;height:46px}
+.ics.ic_user.al.sm{background-position:-206px -180px}
+.ics.ic_user.sm{-moz-transform:scale(1.55);-webkit-transform:scale(1.55);-o-transform:scale(1.55);-ms-transform:scale(1.55);transform:scale(1.55);margin:15%}
+.ics.ic_user.md{-moz-transform:scale(1.77);-webkit-transform:scale(1.8);-o-transform:scale(1.77);-ms-transform:scale(1.77);transform:scale(1.77);margin:17%}
+.ics.ic_user.lg{-moz-transform:scale(2.88);-webkit-transform:scale(2.88);-o-transform:scale(2.88);-ms-transform:scale(2.88);transform:scale(2.88);margin:28%}
+
+.ics.ic_video{background-position:0 -216px}
+.ics.ic_photo{background-position:-36px -216px}
+.ics.ic_audio{background-position:-72px -252px}
+.ics.ic_close.wh{background-position:-108px -216px}
+.ics.ic_close.wh:hover{background-position:-108px -252px}
+.ics.ic_video:hover{background-position:0 -252px}
+.ics.ic_photo:hover{background-position:-36px -252px}
+.ics.ic_audio:hover{background-position:-72px -216px}
+
+.ics.ic_bb_bb{background-position:-144px -228px;width:57px;height:42px}
+.ics.ic_bb_tx{background-position:-202px -228px;width:50px;height:41px}
+
+.ics.ic_prv{background-position:0 -290px;width:18px;-moz-transform:scale(2.58);-webkit-transform:scale(2.58);-o-transform:scale(2.58);-ms-transform:scale(2.58);transform:scale(2.58);margin:25%}
+.ics.ic_nxt{background-position:-18px -290px;width:18px;-moz-transform:scale(2.58);-webkit-transform:scale(2.58);-o-transform:scale(2.58);-ms-transform:scale(2.58);transform:scale(2.58);margin:25%}
+.ics.ic_bb_bomb{background-position: -180px -505px;width: 55px;height: 48px;-moz-transform:scale(1.55);-webkit-transform:scale(1.55);-o-transform:scale(1.55);-ms-transform:scale(1.55);transform:scale(1.55);}
+.ics.ic_prv:hover{background-position:-36px -290px}
+.ics.ic_nxt:hover{background-position:-54px -290px}
+.ics.ic_prv.wh{background-position:-216px -290px}
+.ics.ic_nxt.wh{background-position:-234px -290px}
+
+.ics.ic_prv.thckr{background-position:-72px -326px}
+.ics.ic_nxt.thckr{background-position:-90px -326px}
+.ics.ic_full{background-position:-72px -290px}
+.ics.ic_full:hover{background-position:-108px -290px}
+.ics.ic_normal{background-position:-144px -290px}
+.ics.ic_normal:hover{background-position:-180px -290px}
+.ics.ic_lminus{background-position:-108px -326px}
+.ics.ic_lplus{background-position:-144px -326px}
+.ics.ic_guser{background-position:-36px -326px}
+.ics.ic_genv{background-position:0 -326px}
+
+.ics.ic_search.wh{background-position:0 -360px}
+.ics.ic_vimeo{background-position:-36px -360px}
+.ics.ic_ytb{background-position:-72px -360px}
+.ics.ic_subir_vd{background-position:-108px -360px}
+.ics.ic_subir_ph{background-position:-144px -360px}
+.ics.ic_img_up{background-position:-180px -360px;-moz-transform:scale(2.3);-webkit-transform:scale(2.3);-o-transform:scale(2.3);-ms-transform:scale(2.3);transform:scale(2.3)}
+.ics.ic_bb_bb_news{background-position:-216px -360px}
+
+.ics.ic_ios{background-position:0 -397px}
+.ics.ic_android{background-position:-36px -396px}
+.ics.ic_pencil.wh{background-position:-72px -396px}
+.ics.ic_logo_bbm{background-position:-180px -396px}
+.ics.ic_logo_h{background-position:-216px -396px}
+
+.ics.ic_home{background-position:-144px -270px;width:18px;height:16px}
+.ics.ic_preview{background-position:-167px -271px;width:18px;height:16px}
+.ics.ic_ok{background-position:-192px -270px;width:18px;height:16px}
+.ics.ic_cdown{background-position:-212px -270px;width:18px;height:16px}
+
+/*
+.ics.ic_500{background-image:url('/export/sites/bigbang/arte/500.svg');width:300px;height:230px}
+.ics.ic_404_ss{background-image:url('/export/sites/bigbang/arte/404_ss.svg');width:182px;height:187px}
+.ics.ic_404_cloud{background-image:url('/export/sites/bigbang/arte/404_cloud.svg');width:184px;height:135px;background-repeat:no-repeat}
+
+.pngs{background:url('/export/sites/bigbang/arte/ic.png') no-repeat;display:inline-block;width:30px;height:30px}
+.pngs.ic_ok{background-position:-10px -715px;border:0px}
+.pngs.ic_refresh{background-position:-60px -715px;border:0px}
+.pngs.ic_env2{background-position:-18px -526px;border:0px;width:112px;height:112px}
+.pngs.img_registrate{background-position:0px -250px;width:415px;height:250px}
+.pngs.img_registrate.sm{max-width:360px;background-size:500px;max-height:200px;background-position:10px -210px}
+.pngs.img_felicitaciones{background-position:0px 0px;width:500px;height:250px}
+.pngs.img_perfil{background-position:-440px -465px;width:150px;height:190px}
+.pngs.img_navegar{background-position:-440px -255px;width:150px;height:190px}
+.pngs.img_publica{background-position:-149px -493px;width:154px;height:198px}
+.pngs.img_mountains{background-position:-251px -702px;width:349px;height:299px}
+.pngs.img_user{background-position:-0px -755px;width:141px;height:148px}
+.pngs.img_top_user{background-position:-0px -950px;width:312px;height:434px}
+.pngs.img_user.sm{background-position:-474px -1016px;width:118px;height:145px}
+
+.pngs.app_big{background-position:-472px -1171px;width:128px;height:145px}
+.pngs.shield{background-position:-351px -1037px;width:115px;height:115px}
+.pngs.hand_ok{background-position:-350px -1156px;width:116px;height:130px}
+.ics.shield{background:url('/export/sites/bigbang/arte/ic.png') no-repeat;background-position:-570px -1343px;width:29px;height:37px}
+.ics.shield.gr{background-position:-542px -1343px}
+
+.ppngs{background:url('/export/sites/bigbang/arte/ic_perfiles.png') no-repeat;display:inline-block;width:30px;height:25px;vertical-align: middle;}
+.ppngs.pencil{background-position:0px -156px}
+.ppngs.user{background-position:0px -2px;width:50px;height:55px}
+.ppngs.biguser{background-position:-50px -2px;width:160px;height:150px}
+.ppngs.flecha{background-position:-200px -2px;width:160px;height:150px}
+
+.ppngs.pencil{background-image:url('/export/sites/bigbang/arte/ic.svg');background-position:-76px -403px}
+.ic_img-app{width:320px;height:130px;display:block;background-image:url('/export/sites/bigbang/arte/descarga_app.png');font-size:11px;text-align:center}
+
+.icon.ic-firefox, .icon.ic-chrome, .icon.ic-explorer, .icon.ic-safari, .icon.ic-opera{width:90px;height:90px;background-image:url('/export/sites/bigbang/arte/ic_browsers.png');display:inline-block}
+.icon.ic-firefox{background-position:0 0}
+.icon.ic-chrome{background-position:-90px 0}
+.icon.ic-explorer{background-position:-180px 0}
+.icon.ic-safari{background-position:-270px 0}
+.icon.ic-opera{background-position:-360px 0}
+a:hover .icon.ic-firefox{background-position:0 -90px}
+a:hover .icon.ic-chrome{background-position:-90px -90px}
+a:hover .icon.ic-explorer{background-position:-180px -90px}
+a:hover .icon.ic-safari{background-position:-270px -90px}
+a:hover .icon.ic-opera{background-position:-360px -90px}
+
+.ics.ic_nublado{background-position:0 -468px}
+.ics.ic_moon{background-position:-36px -468px}
+.ics.ic_helada{background-position:-72px -468px}
+.ics.ic_nieve{background-position:-108px -468px}
+.ics.ic_llovizna{background-position:-144px -468px}
+
+.ic_dolar{width:74px;height:43px;display:inline-block;background-image:url('/export/sites/bigbang/arte/dolar.png');font-size:11px;text-align:center;vertical-align: middle;}
+*/

@@ -1,0 +1,16 @@
+{{#each lecturas}}
+	{{#if filenameFoto}}
+		<li class="collection-item avatar" id="li-otras-{{id}}">					
+			<img src="/{{pathFoto}}/{{id}}/{{filenameFoto}}" alt="" class="circle materialboxed">
+	{{else}}
+		<li class="collection-item avatar" id="li-otras-{{id}}" style="padding-left:72px">		
+						
+	{{/if}}	
+			<input type="hidden" name="otra_id{{id}}" value="{{id}}">
+			<p style="padding-right: 20px;" class="title">{{titulo}}</p>
+			<a class="secondary-content"><i class="material-icons">speaker_notes</i></a>
+			<div style="position: absolute; left:16px; top:32px;">
+			<p class="label label-info" id="p-leido-{{id}}"><p>
+			</div>
+		</li>
+{{/each}}

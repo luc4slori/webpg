@@ -1,0 +1,23 @@
+{{#each notas}}
+<tr>
+	{{#if fechavisible}}
+		<td>{{fechaNotaUser}}</td>
+	{{else}}
+		<td class="hidden"></td>
+	{{/if}}
+	
+	<td><a href="/{{tituloMenu_ami}}/{{tituloSubmenu_ami}}/{{id}}-{{titulo_ami}}">{{titulo}}</a></td>
+	
+	{{#if visitas}}
+		<td>{{vistas}}</td>
+	{{else}}
+		<td></td>
+	{{/if}}
+	
+</tr>
+{{/each}}
+			
+		
+		
+
+

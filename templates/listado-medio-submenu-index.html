@@ -1,0 +1,25 @@
+<!---apend listado-submenus.html (los primeros 3)-->
+{{#each submenus}}
+	<div class="col s12 m6 l4">
+		<div class="card">
+			<div class="card-image waves-effect waves-block waves-light">
+				<img class="activator" src="/{{pathFoto}}/{{id}}/{{filenameFoto}}">
+			</div>
+			<div class="card-content">
+				<span class="card-title activator grey-text text-darken-4">{{titulo}}</span>
+				<p><a href="/{{tituloMenu_ami}}/{{id}}-{{titulo_ami}}">Entrar</a><i class="activator material-icons right">more_vert</i></p>
+			</div>
+			<div class="card-reveal">      
+				<span class="right card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+				<span class="card-title grey-text text-darken-4">{{titulo}}</span>
+				<p>{{descripcion}}</p>
+				<p><a href="/{{tituloMenu_ami}}/{{id}}-{{titulo_ami}}">Entrar</a></p>
+			</div>
+		</div>
+	</div> <!-- fin col-->
+{{/each}}
+			
+		
+		
+
+

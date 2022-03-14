@@ -1,0 +1,758 @@
+ul, form, nav{
+}
+	@media only screen and (min-width: 1px) and (max-width: 600px) {
+			ul form, nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+			height: 97px;
+			line-height: 38px;
+			padding-top: 3px;
+			}			
+		}
+	@media only screen and (min-width: 601px) {
+			ul form, nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+			height: 40px;
+			line-height: 40px;
+			}			
+		}
+	@media only screen and (min-width : 993px) {
+			nav a.button-collapse {
+			display: block; 
+			} 
+		}
+
+#img-logoo1{
+	}
+	@media only screen and (max-width: 340px) {
+        #img-logoo1{
+			    max-width: 100%;
+				width: 100%;
+				padding-top: 3px;
+		}
+    }
+	@media only screen and (min-width: 341px) and (max-width: 375px) {
+        #img-logoo1{
+			    max-width: 90%;
+				width: 90%;				
+				padding-top: 4px;				
+		}
+    }
+	
+	@media only screen and (min-width: 376px) and (max-width: 400px) {
+        #img-logoo1{
+			    max-width: 90%;	
+				width: 90%;
+				padding-top: 3px;				
+		}
+    }
+	
+	@media only screen and (min-width: 401px) and (max-width: 430px) {
+        #img-logoo1{
+			    max-width: 90%;	
+				width: 90%;
+				padding-top: 2px;				
+		}
+    }
+	
+	@media only screen and (min-width: 431px) and (max-width: 460px) {
+        #img-logoo1{
+			    max-width: 90%;	
+				width: 90%;
+				padding-top: 1px;				
+		}
+    }
+	
+	@media only screen and (min-width: 461px) and (max-width: 490px) {
+        #img-logoo1{
+			    max-width: 82%;	
+				width: 82%;
+				padding-top: 0px;				
+		}
+    }
+	
+	@media only screen and (min-width: 491px) and (max-width: 520px) {
+        #img-logoo1{
+			    max-width: 76%;
+				width: 76%;				
+				padding-top: 0px;				
+		}
+    }
+	
+	@media only screen and (min-width: 521px) and (max-width: 550px) {
+        #img-logoo1{
+			    max-width: 72%;	
+				width: 72%;
+				padding-top: 0px;				
+		}
+    }
+	
+	@media only screen and (min-width: 551px) and (max-width: 600px) {
+        #img-logoo1{
+			    max-width: 68%;	
+				width: 68%;
+				padding-top: 0px;				
+		}
+    }
+
+
+	
+	
+.navbar-fixed{
+
+	}
+	@media only screen and (max-width: 600px) {
+        #nav-ppal{
+			/*background-color:#72AE72;*/
+			background-color:rgb(52, 107, 112);
+			background:a;
+			height: 56px;
+		}
+		#btn-login-nav{
+			padding-top:0px;
+			margin-right:20px;
+			margin-top:10px;
+			
+		} 
+		#btn-login-nav i{
+			height: 41px;
+			line-height: 41px;
+		}
+		.chip.chip-account{
+			position:fixed;
+			top:14px;
+			right:2px;		
+		}
+		.chip.chip-account:hover{
+			cursor:pointer;
+		}
+		.chip.chip-account span{
+			font-size:6px;
+		}
+    }
+	
+	@media only screen and (min-width: 601px) {
+		.navbar-fixed{
+			    height: 4px;
+		}
+        #nav-ppal{
+			background-color: rgba(11, 85, 65, 0.75);
+		}
+		#btn-login-nav{
+			padding-top:0px;
+			margin-right:20px;
+		
+		} 
+		.chip.chip-account{
+			position:fixed;
+			top:4px;			
+			right:10px;	
+		    background-color: rgba(207, 216, 249, 0.61);
+
+		}
+		.chip.chip-account span{
+			font-size:11px;
+		}
+		.chip.chip-account:hover{
+			cursor:pointer;
+		}
+    }
+	
+
+	
+	
+
+.picker--opened .picker__frame {
+    top: auto;
+    bottom: 15%;
+	}
+	@media only screen and (min-width: 601px){
+		.picker__wrap, .picker--opened .picker__frame {
+			top: auto;
+			bottom: 5%;
+		}
+		
+	}
+	
+/*  
+	@media only screen and (min-width: 601px) and (max-width: 820px) {
+        
+		#input-field-nav{
+			display:none;
+        }
+		
+		#search-ppal{
+            display:none;
+        }
+        #mnu-multimedia,  #mnu-planeta, #mnu-especies, #mnu-recursos{
+            display:none;
+        }
+		#mnu-especies{
+			margin-left:15px;
+		}
+    }
+	
+	@media only screen and (min-width: 821px) and (max-width: 860px) {
+        #search-ppal{
+            width: 215px;
+        }
+        #mnu-multimedia,  #mnu-planeta, #mnu-especies, #mnu-recursos{
+            display:none;
+        }
+		#mnu-especies{
+			margin-left:15px;
+		}
+    }
+	
+	@media only screen and (min-width: 861px) and (max-width: 900px) {
+        #search-ppal{
+            width: 230px;
+        }
+        #mnu-multimedia, #mnu-planeta, #mnu-especies, #mnu-recursos{
+            display:none;
+        }
+    }
+	
+	 @media only screen and (min-width: 901px) and (max-width: 940px) {
+        #search-ppal{
+            width: 171px;
+        }
+        #mnu-multimedia, #mnu-planeta, #mnu-especies{
+            display:none;
+        }
+    }
+
+    @media only screen and (min-width: 941px) and (max-width: 1023px) {
+        #search-ppal{
+            width: 205px;
+        }
+        #mnu-multimedia, #mnu-planeta, #mnu-especies{
+            display:none;
+        }
+    }
+    @media only screen and (min-width: 1024px) and (max-width: 1072px) {
+        #search-ppal{
+            width: 250px;
+        }
+        #mnu-multimedia, #mnu-planeta, #mnu-especies{
+            display:none;
+        }
+    }
+     @media only screen and (min-width: 1073px) and (max-width: 1219px) {
+        #search-ppal{
+            width: 200px;
+        }
+        #mnu-multimedia{
+            display:none;
+        }
+    }
+
+     @media only screen and (min-width: 1220px) and (max-width: 1300px) {
+        #search-ppal{
+            width: 200px;
+        }
+        
+    }
+
+    @media only screen and (min-width: 1301px) and (max-width: 1400px) {
+        #search-ppal{
+            width: 250px;
+        }
+        
+    }
+
+    @media only screen and (min-width: 1401px) and (max-width: 1500px) {
+        #search-ppal{
+            width: 350px;
+        }
+        
+    }
+
+    @media only screen and (min-width: 1501px){
+        #search-ppal{
+            width: 450px;
+        }
+        
+    }
+     @media only screen and (min-width: 1601px) and (max-width: 1700px) {
+        #search-ppal{
+            width: 550px;
+        }
+        
+    }
+     @media only screen and (min-width: 1701px) and (max-width: 1800px) {
+        #search-ppal{
+            width: 650px;
+        }
+        
+    }
+     @media only screen and (min-width: 1801px) and (max-width: 1900px) {
+        #search-ppal{
+            width: 750px;
+        }
+        
+    }
+	*/
+	
+
+@media only screen and  (max-width: 690px) {
+        #mnu-3{
+            display:none;
+        }
+        
+    }
+	
+
+		
+	@media only screen and (max-width: 770px) {
+        #mnu-4{
+            display:none;
+        }
+        
+    }
+	
+	@media only screen and (max-width: 880px) {
+        #mnu-5{
+            display:none;
+        }
+        
+    }
+	
+		@media only screen and  (max-width: 1010px) {
+        #mnu-6{
+            display:none;
+        }
+        
+    }
+	
+	@media only screen and  (max-width: 1140px) {
+        #mnu-7{
+            display:none;
+        }
+        
+    }
+		
+	@media only screen and (max-width: 1270px) {
+        #mnu-8{
+            display:none;
+        }
+        
+    }
+	
+	@media only screen and (max-width: 1400px) {
+        #mnu-9{
+            display:none;
+        }
+        
+    }
+	
+		@media only screen and  (max-width: 1530px) {
+        #mnu-10{
+            display:none;
+        }
+        
+    }
+		
+	@media only screen and (max-width: 1660px) {
+        #mnu-11{
+            display:none;
+        }
+        
+    }
+	
+	@media only screen and (max-width: 1790px) {
+        #mnu-12{
+            display:none;
+        }
+        
+    }
+
+	@media only screen and  (max-width: 1920px) {
+        #mnu-13{
+            display:none;
+        }
+        
+    }
+		
+	@media only screen and (max-width: 2110px) {
+        #mnu-14{
+            display:none;
+        }
+        
+    }
+	
+	@media only screen and (max-width: 2240px) {
+        #mnu-15{
+            display:none;
+        }
+        
+    }
+	
+	
+	
+	
+.fixed-action-btn.btn-up{		
+	} 	
+	@media only screen and (min-width: 601px) and (max-width: 1023px) {
+        .btn-floating.btn-super-large {
+			width: 40.5px;
+			height: 40.5px;        
+		}
+		.btn-floating.btn-super-large i {
+			font-size: 2.6rem;
+			line-height: 31px;
+		}
+	}
+	@media only screen and (min-width: 1024px) {
+        .btn-floating.btn-super-large {
+			width: 80.5px;
+			height: 80.5px;        
+		}		
+
+		.btn-floating.btn-super-large i {		
+			font-size: 5.6rem;
+			line-height: 60px;    
+		}
+	}
+#modal-contact, #modal-contact.modal-content{
+}
+	@media only screen and (min-width: 1px) and (max-width: 600px) {
+        #modal-contact, #modal-contact.modal-content{            
+            max-width:95%;
+            width:95%;
+
+        }
+	}
+
+    @media only screen and (min-width: 601px) and (max-width: 1023px) {
+        #modal-contact, #modal-contact.modal-content{            
+            max-width:85%;
+            width:85%;
+
+        }
+	}
+
+      @media only screen and (min-width: 1024px){
+        #modal-contact, #modal-contact.modal-content{            
+            max-width:70%;
+            width:70%;
+
+        }
+	}   
+
+.container-media {
+    margin: 0 auto;
+    max-width: 1280px;   
+}
+    @media only screen and (min-width: 1px) and (max-width: 600px) {
+        .container-media{                        
+            width:100%;
+        }
+	}
+
+    @media only screen and (min-width: 601px) and (max-width: 1023px) {
+        .container-media{                          
+            width:85%;
+        }
+	}
+
+      @media only screen and (min-width: 1024px){
+        .container-media{               
+             width: 70%;
+        }
+	} 
+
+.container-admin {
+    margin: 0 auto;
+    max-width: 1280px;   
+}
+    @media only screen and (min-width: 1px) and (max-width: 600px) {
+        .container-admin{                        
+            width:100%;
+        }
+	}
+
+    @media only screen and (min-width: 601px) and (max-width: 1023px) {
+        .container-admin{                          
+            width:95%;
+        }
+	}
+
+      @media only screen and (min-width: 1024px){
+        .container-admin{               
+             width: 85%;
+        }
+	}   
+
+.card {
+    
+}
+    @media only screen and (min-width: 1px) and (max-width: 600px) {
+        .card{                        
+            font-size:12px;            
+        }
+        .card-content i {
+            display:none;
+        }
+        .card-reveal i{
+            display:none;
+        }
+	}
+
+    @media only screen and (min-width: 601px) and (max-width: 1023px) {
+        .card{                          
+            font-size:13px;
+        }
+        .card-content i {
+            display:inherit;
+        }
+        .card-reveal i{
+            display:inherit;
+        }
+	}
+
+      @media only screen and (min-width: 1024px){
+        .card{               
+             font-size: 14px;
+        }
+          .card-content i {
+            display:inherit;
+        }
+          .card-reveal i{
+            display:inherit;
+        }
+	}   
+	
+  @media only screen and (min-width: 1px) and (max-width: 600px) {	
+		table.responsive-table th.th-image{
+		padding-top:55px;
+		padding-bottom:55px;
+	}
+
+	table.responsive-table th.th-button{
+		padding-top:25px;
+		padding-bottom:25px;
+	}
+	table.responsive-table th, table.responsive-table td,  table.responsive-table td img {
+		text-align:center;
+	}
+}
+
+ @media only screen and (min-width: 601px) and (max-width: 1023px) {	
+		table.responsive-table th.th-image{
+		padding-top:55px;
+		padding-bottom:55px;
+	}
+
+	table.responsive-table th.th-button{
+		padding-top:30px;
+		padding-bottom:20px;
+	}
+	
+	table.responsive-table th, table.responsive-table td,  table.responsive-table td img {
+		text-align:center;
+	}
+}
+
+  @media only screen and (min-width: 1px) and (max-width: 600px) {
+	#modalEliminar, #modalEliminarMenu, #modalEliminarSubmenu, #modalEliminarPubli, #modalEditarPubli , #modalNuevaPubli, #modalConfirmarImagenBaul, #modalConfirmarImagenBaulEdit, #modalEliminarComment, #modal-contact-sualf   {
+		height:initial;
+		max-height: 75%;
+		width: 98%;
+		padding-bottom:initial;
+		max-width: initial;
+		
+	}
+	#modalWhatsapp{
+		height:initial;
+		max-height: 20%;
+		width: 98%;
+		padding-bottom:initial;
+		max-width: initial;		
+	}
+}
+
+  @media only screen and (min-width: 601px) and (max-width: 900px) {
+	#modalEliminar, #modalEliminarMenu, #modalEliminarSubmenu, #modalEliminarPubli, #modalEditarPubli , #modalNuevaPubli, #modalConfirmarImagenBaul, #modalConfirmarImagenBaulEdit , #modalEliminarComment, #modal-contact-sualf {
+		height:initial;
+		max-height: 75%;
+		width: 75%;
+		padding-bottom:initial;
+		max-width: initial;
+		
+	}
+	#modalWhatsapp{
+		height:initial;
+		max-height: 15%;
+		width: 75%;
+		padding-bottom:initial;
+		max-width: initial;		
+	}
+}
+
+ @media only screen and (min-width: 901px) {
+	#modalEliminar, #modalEliminarMenu, #modalEliminarSubmenu, #modalEliminarPubli, #modalEditarPubli , #modalNuevaPubli, #modalConfirmarImagenBaul, #modalConfirmarImagenBaulEdit, #modalEliminarComment, #modal-contact-sualf {
+		height:initial;
+		max-height: 75%;
+		width: 55%;
+		padding-bottom:initial;
+		max-width: initial;
+		
+	}
+	#modalWhatsapp{
+		height:initial;
+		max-height: 10%;
+		width: 55%;
+		padding-bottom:initial;
+		max-width: initial;		
+	}
+}
+
+
+
+table.responsive-table td, table.responsive-table th {
+		overflow: hidden;
+		text-overflow: ellipsis;
+}
+	@media only screen and (min-width: 200px) and (max-width: 250px){
+		table.responsive-table td, table.responsive-table th {
+			max-width: 150px;
+		}
+	}
+	
+	@media only screen and (min-width: 251px) and (max-width: 300px){
+		table.responsive-table td, table.responsive-table th {
+			max-width: 190px;
+		}
+	}
+	@media only screen and (min-width: 301px) and (max-width: 350px){
+		table.responsive-table td, table.responsive-table th {
+			max-width: 200px;
+		}
+	}
+	
+	@media only screen and (min-width: 351px) and (max-width: 400px){
+		table.responsive-table td, table.responsive-table th {
+			max-width: 250px;
+		}
+	}
+	
+	@media only screen and (min-width: 401px) and (max-width: 450px){
+		table.responsive-table td, table.responsive-table th {
+			max-width: 310px;
+		}
+	}
+	
+	@media only screen and (min-width: 451px) and (max-width: 480px){
+		table.responsive-table td, table.responsive-table th {
+			max-width: 360px;
+		}
+	}
+	
+	@media only screen and (min-width: 481px) and (max-width: 500px){
+		table.responsive-table td, table.responsive-table th {
+			max-width: 390px;
+		}
+	}
+	
+	@media only screen and (min-width: 501px) and (max-width: 550px){
+		table.responsive-table td, table.responsive-table th {
+			max-width: 410px;
+		}
+	}
+	
+	@media only screen and (min-width: 551px){
+		table.responsive-table td, table.responsive-table th {
+			max-width: 460px;
+		}
+	}
+
+.flow-text2 {
+  font-weight: 300; }
+  @media only screen and (min-width: 360px) {
+    .flow-text2 {
+      font-size: 0.8rem; } }
+  @media only screen and (min-width: 390px) {
+    .flow-text2 {
+      font-size: 0.824rem; } }
+  @media only screen and (min-width: 420px) {
+    .flow-text2 {
+      font-size: 0.848rem; } }
+  @media only screen and (min-width: 450px) {
+    .flow-text2 {
+      font-size: 0.872rem; } }
+  @media only screen and (min-width: 480px) {
+    .flow-text2 {
+      font-size: 0.896rem; } }
+  @media only screen and (min-width: 510px) {
+    .flow-text2 {
+      font-size: 0.92rem; } }
+  @media only screen and (min-width: 540px) {
+    .flow-text2 {
+      font-size: 0.944rem; } }
+  @media only screen and (min-width: 570px) {
+    .flow-text2 {
+      font-size: 0.968rem; } }
+  @media only screen and (min-width: 600px) {
+    .flow-text2 {
+      font-size: 0.992rem; } }
+  @media only screen and (min-width: 630px) {
+    .flow-text2 {
+      font-size: 1.016rem; } }
+  @media only screen and (min-width: 660px) {
+    .flow-text2 {
+      font-size: 1.04rem; } }
+  @media only screen and (min-width: 690px) {
+    .flow-text2 {
+      font-size: 1.064rem; } }
+  @media only screen and (min-width: 720px) {
+    .flow-text2 {
+      font-size: 1.088rem; } }
+  @media only screen and (min-width: 750px) {
+    .flow-text2 {
+      font-size: 1.112rem; } }
+  @media only screen and (min-width: 780px) {
+    .flow-text2 {
+      font-size: 1.136rem; } }
+  @media only screen and (min-width: 810px) {
+    .flow-text2 {
+      font-size: 1.16rem; } }
+  @media only screen and (min-width: 840px) {
+    .flow-text2 {
+      font-size: 1.184rem; } }
+  @media only screen and (min-width: 870px) {
+    .flow-text2 {
+      font-size: 1.208rem; } }
+  @media only screen and (min-width: 900px) {
+    .flow-text2 {
+      font-size: 1.232rem; } }
+  @media only screen and (min-width: 930px) {
+    .flow-text2 {
+      font-size: 1.256rem; } }
+  @media only screen and (min-width: 960px) {
+    .flow-text2 {
+      font-size: 1.28rem; } }
+  @media only screen and (max-width: 360px) {
+    .flow-text2 {
+      font-size: 0.8rem; } }
+	  
+	  
+.container-2 {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 90%;
+}
+
+@media only screen and (min-width: 601px) {
+  .container-2 {
+    width: 88%;
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  .container-2 {
+    width: 75%;
+  }
+}
+
+.container-2 .row {
+  margin-left: -0.75rem;
+  margin-right: -0.75rem;
+}

@@ -1,0 +1,19 @@
+{{#each carrusels}}
+ <tr id="nota-carrusel-{{id}}"> 
+			 <td class="notaId">
+			 {{#ifCond carrusel '==' 1}}
+			 <input name="listado-chk-carrusel-{{id}}" class="chk-lis-car" id="chk-lis-{{id}}" type="checkbox" checked="true" value="{{id}}"/>
+			 		<label for="chk-lis-{{id}}"></label>						
+			 {{else}}
+				<input name="listado-chk-carrusel-{{id}}" class="chk-lis-car" id="chk-lis-{{id}}" type="checkbox" value="{{id}}"/>
+			 		<label for="chk-lis-{{id}}"></label>	
+						
+			{{/ifCond}}	
+			 </td> 			     
+			<td class="notaTitulo">{{titulo}}</td>
+			<td class="centered"><img class="materialboxed" height="113" src="/{{pathFoto}}/{{id}}/{{filenameFoto}}"></td>
+			<td>
+			<a class="btn editar" href="#">Editar</a> 				
+			</td>
+<tr>
+{{/each}}

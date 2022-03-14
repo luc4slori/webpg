@@ -1,0 +1,31 @@
+	{{#each oldnotas}}	
+	<div class="col s12 m12 l6">
+		<div class="row oldnotas" style="box-shadow: 0 27px 24px 0 rgba(0, 0, 0, 0.2), 0 40px 77px 0 rgba(0, 0, 0, 0.22);background-color: #C6D8E7;padding-top: 4px; margin-top:20px;">
+			{{#if fechavisible}}
+				<div style="position: relative; left:10px; top:5px;"><p class="label label-primary">{{fechaNotaUser}}</p><p></p></div>
+				{{else}}
+				<div style="position: relative; left:10px; top:5px;"><p class="label label-primary"></p><p></p></div>
+			{{/if}}
+			
+			<div class="PIJA col s12 m12 center">
+				<h5 class="flow-text header tit-lo-ultimo-2" style="color: #9E0C0C;font-family: monospace; margin-top:0px">{{titulo}}</h5>
+			</div>
+			<div class="col s12 m12 center ">
+				{{#if filenameFoto}}
+				<img src="/{{pathFoto}}/{{id}}/{{filenameFoto}}" alt="" class="circle responsive-img center" style="max-height=400px; box-shadow: 0 27px 24px 0 rgba(0, 0, 0, 0.2), 0 40px 77px 0 rgba(0, 0, 0, 0.22);">
+				{{else}}
+				<img src="/{{pathFoto}}/{{id}}" alt="" class="circle responsive-img center hidden" style="max-height=400px">
+				{{/if}}
+				
+			</div>
+			<div class="col s12 m12 " style="padding-top: 10px; padding-bottom:10px;">
+				<h6>{{subtitulo}}</h6>
+			</div>	
+		</div>	
+	</div>	
+	{{/each}}
+
+
+		
+
+

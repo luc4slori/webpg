@@ -1,0 +1,20 @@
+{{#each menus}} 
+	<div class="container-cards hidden" id="menu{{@index}}" >
+	<style scoped>
+		#menu{{@index}}:before {
+		background: url('/{{pathFoto}}/{{id}}/{{filenameFoto}}') no-repeat;
+		background-size: cover;
+		}
+		
+	</style>
+	
+		<div class="row row-cards" id="menu{{id}}-submenus">			
+			<div class="col s12 m12 l12 row-cards-titulo">
+				<a class="btn-floating waves-effect waves-light red right"><i class="tiny material-icons">close</i></a>
+				<h2 class="flow-text header header-card">{{titulo}}<a href="{{id}}-{{titulo_ami}}"><h6>Ver mas</h6></a></h2>
+			</div> <!-- fin col-->
+			<!---apend listado-submenus.html (los primeros 3)-->
+		</div>	
+	</div>
+	
+{{/each}}

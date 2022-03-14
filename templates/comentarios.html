@@ -1,0 +1,70 @@
+{{#each comentarios}}
+<div id ="{{id}}" class="row">
+	<hr/> 
+	<div class="col s1">    
+		<div class="chip" style="background-color:rgba(0,0,0,0);">
+			{{#if belong}}					  
+				<img src="/files/usr/{{user_id}}/avatar.jpg" alt="">
+			
+			{{else}}			
+				<img src="/img/account-grey.jpg" alt="">					
+			{{/if}}   
+		</div>			
+	</div>	
+	<div class="col s11">
+		<span style="margin-top:4px; font-weight:bold;">{{nombre}} {{apellido}} </span>
+		{{#ifCond anios '>' 1}}
+			<span> hace {{anios}} años</span>		
+		{{else}}
+			{{#ifCond anios '==' 1}}
+				<span> hace {{anios}} año</span>
+			{{else}}
+				{{#ifCond meses '>' 1}}
+					<span> hace {{meses}} meses</span>		
+				{{else}}
+					{{#ifCond meses '==' 1}}
+						<span> hace {{meses}} mes</span>
+					{{else}}
+						{{#ifCond dias '>' 1}}
+							<span> hace {{dias}} dias</span>		
+						{{else}}
+							{{#ifCond dias '==' 1}}
+								<span> hace {{dias}} dia</span>
+							{{else}}
+								{{#ifCond horas '>' 1}}
+									<span> hace {{horas}} horas</span>		
+								{{else}}
+									{{#ifCond horas '==' 1}}
+										<span> hace {{horas}} hora</span>
+									{{else}}										
+										{{#ifCond minutos '>' 1}}
+											<span> hace {{minutos}} minutos</span>		
+										{{else}}
+											{{#ifCond minutos '==' 1}}
+												<span> hace {{minutos}} minuto</span>
+											{{else}}
+												{{#ifCond segundos '>' 1}}
+													<span> hace {{segundos}} segundos</span>		
+												{{else}}
+													{{#ifCond segundos '==' 1}}
+														<span> hace {{segundos}} segundo</span>
+													{{else}}													
+														<span> hace instantes</span>
+													{{/ifCond}}											
+												{{/ifCond}}											
+											{{/ifCond}}											
+										{{/ifCond}}											
+									{{/ifCond}}											
+								{{/ifCond}}											
+							{{/ifCond}}											
+						{{/ifCond}}											
+					{{/ifCond}}											
+				{{/ifCond}}											
+			{{/ifCond}}											
+		{{/ifCond}}
+		<p style="color:rgb(16, 29, 104);">{{descripcion}}<span>{{#ifCond ../user '==' 'admin'}}<a><i class="right material-icons" style="color: red;">delete</i></a>{{/ifCond}}</span></p>
+	</div>
+  
+
+</div>
+{{/each}}
